@@ -1,0 +1,9 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2021-10-04 04:51:11 --> 404 Page Not Found: Admin_login/index
+ERROR - 2021-10-04 10:01:23 --> Severity: error --> Exception: Call to undefined method Billing::getpaymentlist() G:\xamp\htdocs\jewellery\application\views\billing\billmanage_v.php 123
+ERROR - 2021-10-04 14:30:41 --> Severity: error --> Exception: syntax error, unexpected end of file G:\xamp\htdocs\jewellery\application\views\billing\billmanage_v.php 168
+ERROR - 2021-10-04 14:58:48 --> Severity: error --> Exception: Unsupported operand types G:\xamp\htdocs\jewellery\application\controllers\billing.php 167
+ERROR - 2021-10-04 15:00:23 --> Query error: Unknown column 'bill_no' in 'field list' - Invalid query: UPDATE `tbl_stock` SET `bill_no` = 'KI4361', `customer_name` = 'amit Solanki', `customer_mobile_no` = '7415610039', `customer_address` = 'indore', `billing_date` = '2021-10-04', `sub_total_g_wt` = '2700', `sub_total_b_qty` = '2400', `sub_total_b_wt` = '600', `sub_total_net_wt` = '2100', `sub_total_fine` = '1617', `sub_total_labour_psc` = '17', `sub_total_labour_gm` = '0.00', `sub_total_labour_amount` = '20400', `silver_receive` = '1617', `silver_purity` = '100', `fine_receive` = '1200', `fine_remain` = '417.00', `jewellery_current_rate` = '15.2', `jewellery_rate` = '6338.40', `jewellery_rate_diposit` = '6900', `diposit_lbr_amount` = '15000', `cgst_mp_per` = '5', `cgst_mp_price` = '316.92', `sgst_mp_per` = '5', `sgst_mp_price` = '316.92', `grand_total` = '6972.24', `created_date` = '2021-10-04 03:00:23', `deletion_status` = 0, `net_weight` = 735
+WHERE `id` = '8'
+ERROR - 2021-10-04 18:48:35 --> Severity: error --> Exception: syntax error, unexpected 'print_r' (T_STRING), expecting ',' or ';' G:\xamp\htdocs\jewellery\application\views\billing\print.php 147

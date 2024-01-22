@@ -1,0 +1,181 @@
+
+@media only screen and ( min-width:961px) and ( max-width:1024px ){
+
+.home-slide-cntent h1{font-size: 47px;}
+
+#menu ul li > a {
+    padding: 15px 10px;  font-size: 12px;}
+
+.login-nw, .register-nw{font-size: 12px !important;}
+
+.service-home-one {
+    padding: 35px 15px;}
+
+.service-home-text p{font-size: 14px;}
+
+.blog-detail p{font-size: 13px;}
+
+.blog-detail h2{font-size: 18px;}
+
+.footlink h2, .scl h2{font-size: 16px;}
+
+}
+
+@media only screen and ( min-width:768px) and ( max-width:960px ){
+
+#menu ul li > a {
+    padding: 15px 6px; font-size: 12px;}
+
+.logo-dv {
+    margin: 22px 0px 0px;
+}
+
+.sbmt-jb {
+    width: 19%;}
+
+.search-jb .lction{padding: 15px 20px; font-size: 12px;}
+
+.service-home-one {
+    padding: 30px 15px;}
+
+.service-home-text h2{font-size: 16px;}
+
+.service-home-img img {
+    width: 55px;
+}
+
+.service-home-text p,.blog-detail p{
+    font-size: 12px; line-height: 20px;
+}
+
+.service-home-text a {
+    padding: 8px 20px;}
+
+.testimonial-main p{font-size: 26px;}
+
+.blog-dates ul li {
+    font-size: 10px; margin: 0px 8px 0px 0px;}
+
+.blog-main-text {
+    padding: 0px 10px;
+}
+
+.blog-detail h2{font-size: 16px;}
+
+.blog-main-text-inner {
+    padding: 10px 15px 25px 15px;}
+
+.footlink h2, .scl h2{font-size: 12px;}
+
+.scl p, .footlink ul li a, .scl ul li, .cpyright p{font-size: 12px;}
+
+}
+
+
+@media only screen and ( min-width:600px) and ( max-width:767px ){
+
+
+.top-info ul{text-align: center;}
+
+.top-info ul li {
+    margin: 0px 17px 0px 0px; font-size: 12px;
+}
+
+.home-slide-cntent h1{font-size: 42px;}
+
+.home-slide-cntent {
+    margin: 25px 0px 25px;
+}
+
+.search-jb .lction:first-child {
+    border-radius: 0;
+}
+
+.search-jb .lction {
+    width: 50%;  margin-bottom: 5px; padding: 15px; height: 45px; font-size: 12px;}
+
+.sbmt-jb{width: 100%; position: relative; margin:15px 0px 0px; height: 50px;}
+
+.banner-srch{
+    margin: 0px 0px 100px;
+}
+
+.service-head h3, .servc-head h2, .testimonial-head h2,
+.clients-head h2{font-size: 40px;}
+
+.testimonial-main p{font-size: 18px;}
+
+.blog-dates ul li{font-size: 11px;}
+
+.blog-detail h2{font-size: 17px;}
+
+.blog-main-bxes {
+    margin-bottom: 35px;
+}
+
+.footlink{margin-top:25px;}
+
+.register-nw{margin: 20px 0px 0px !important;padding: 13px 18px !important;}
+
+.login-nw{margin:  15px 0px 0px !important;padding: 13px 18px !important;}
+
+}
+
+@media only screen and ( min-width:320px) and ( max-width:599px ){
+
+.top-info ul{text-align: center;}
+
+.top-info ul li {
+    margin: 0px 17px 0px 0px; font-size: 12px;
+}
+
+.home-slide-cntent h1{font-size: 30px;}
+
+.home-slide-cntent {
+    margin: 25px 0px 25px;
+}
+
+.search-jb .lction:first-child {
+    border-radius: 0;
+}
+
+.search-jb .lction {
+    width: 50%;  margin-bottom: 5px; padding: 15px; height: 40px; font-size: 12px;}
+
+.sbmt-jb{width: 100%; position: relative; margin:15px 0px 0px; height: 45px;}
+
+.banner-srch{
+    margin: 0px 0px 100px;
+}
+
+.service-head h3, .servc-head h2, .testimonial-head h2,
+.clients-head h2{font-size: 30px;}
+
+.service-head h5, .service-home-text p, .blog-detail p {
+    font-size: 13px; line-height: 21px;
+}
+
+.servc-head h5{font-size: 15px;}
+
+.testimonial-main p{font-size: 16px;}
+
+.blog-dates ul li{font-size: 11px;}
+
+.blog-detail h2{font-size: 17px;}
+
+.blog-main-bxes {
+    margin-bottom: 35px;
+}
+
+.footlink{margin-top:25px;}
+
+.register-nw{margin: 20px 0px 0px !important;padding: 13px 18px !important;}
+
+.login-nw{margin:  15px 0px 0px !important;padding: 13px 18px !important;}
+
+}
+
+
+
+
+

@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,900&display=swap" rel="stylesheet">
+    <title>Maa Gayatri Jewellers</title>
+  </head>
+
+  <body>
+
+<!--main-header start here-->
+    <section class="main-header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand logo" href="dashboard.html"><img src="image/logo2.png" alt="logo" class="img-fluid"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ">
+            <li class="nav-item active">
+              <a class="nav-link" href="addstock.html">Add Stock <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="stockmanage.html">stock Manage</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Billing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Bill Manage</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+</section>
+<!--main-header end here-->
+
+
+<!--about start here-->
+ <section class="dashbord stock_manage">
+    <div class="container-fluid">
+ 	<div class="dashbord_main">
+<!--search bar & entrys start here-->
+ 	<div class="row">
+    <div class="col-md-6 col-sm-4">
+      <form>
+    <div class="leftsid">
+         <label class="input-group-text" for="inputGroupSelect01">Show 
+      <select class="custom-select" id="inputGroupSelect01">
+          <option selected>5</option>
+          <option value="1">10</option>
+          <option value="2">50</option>
+          <option value="3">100</option>
+      </select>
+       entries
+     </label>
+   </div>
+  </form>
+     </div>
+
+ <div class="col-md-6 col-sm-8">
+   <div class="rightsid">
+   <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+   </div>
+</div>
+
+    </div>
+<!--search bar & entrys end here-->
+
+<!--table start here-->
+<table class="table table-responsive">
+  <thead>
+    <tr>
+      <th scope="col">sn</th>
+      <th scope="col">product name</th>
+      <th scope="col">g.wt</th>
+      <th scope="col">bages qty</th>
+      <th scope="col">bages wt</th>
+      <th scope="col">net wt</th>
+      <th scope="col">tunch</th>
+      <th scope="col">wstg</th>
+      <th scope="col">fine</th>
+      <th scope="col">pic/qty</th>
+      <th scope="col">labour</th>
+      <th scope="col">amount</th>
+      <th scope="col">action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="rocolor1">
+      <th scope="row">1</th>
+      <td>single stone</td>
+      <td>1778</td>
+      <td>440 x 0.195</td>
+      <td>110</td>
+      <td>1668</td>
+      <td>62.00</td>
+      <td>5</td>
+      <td>1118</td>
+      <td>440pcs</td>
+      <td>10/pcs</td>
+      <td>4400</td>
+      <td><button type="submit" class="btn btn-primary">Edit</button>
+     <button type="submit" class="btn btn-primary">Delete</button></td>
+    </tr>
+    <tr class="rocolor2">
+      <th scope="row">1</th>
+      <td>single stone</td>
+      <td>1778</td>
+      <td>440 x 0.195</td>
+      <td>110</td>
+      <td>1668</td>
+      <td>62.00</td>
+      <td>5</td>
+      <td>1118</td>
+      <td>440pcs</td>
+      <td>10/pcs</td>
+      <td>4400</td>
+      <td><button type="submit" class="btn btn-primary">Edit</button>
+     <button type="submit" class="btn btn-primary">Delete</button></td>
+    </tr>
+   
+  </tbody>
+</table>
+<!--table end here-->
+
+<!--pagination start here-->
+<div class="row">
+  <div class="col-md-12">
+     <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link">Previous</a>
+    </li>
+    <li class="page-item"><a class="page-link active" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+  </div>
+</div>
+<!--pagination end here-->
+
+ 		</div>
+ 	</div>
+ </section>
+
+    
+ <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+     <script src="js/popper.min.js"></script>
+      <script src="js/custom.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
